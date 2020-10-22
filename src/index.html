@@ -37,12 +37,12 @@
                     <nav class="main-menu">
                        <a href="#" class="cross-btn close-main-menu"></a>
                         <ul>
-                            <li><a href="#">Главная(-)</a></li>
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="#">Услуги</a></li>
-                            <li><a href="#">Заявка</a></li>
-                            <li><a href="#">Примеры авто</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <!-- <li><a href="#">Главная</a></li> -->
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#uslugi">Услуги</a></li>
+                            <li><a href="#zayavka">Заявка</a></li>
+                            <li><a href="#primeri">Примеры авто</a></li>
+                            <li><a href="#kontacts">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="nav-panel__contacts clearfix">
@@ -63,7 +63,7 @@
         <main class="main"> 
         <section class="banner">
             <div class="inner">
-                <h1>Подберем автомобиль Вашей мечты</h1>
+                <h1 id = "about">Подберем автомобиль Вашей мечты</h1>
                 <div class="promises-box">
                     <div class="promise">
                         <div class="icon icon__clock"></div>
@@ -95,7 +95,7 @@
                 </div>
             </div>
         </section>
-        <section class="services">
+        <section id = "uslugi" class="services">
             <div class="inner">
                 <h2>Услуги</h2>
                 <div class="services-box">
@@ -266,7 +266,7 @@
                 </div>
             </div>
         </section>
-        <section class="request">
+        <section id = "zayavka" class="request">
             <div class="inner">
                 <h2>Заявка на консультацию</h2>
                 <span class="under-title db">
@@ -290,7 +290,7 @@
                 </form>
             </div>
         </section>
-        <section class="car">
+        <section id = "primeri" class="car">
             <div class="inner">
                 <h2>
                     Примеры осмотренных автомобилей
@@ -625,7 +625,7 @@
                 
             </div>
         </section>
-        <section class="contacts rL hid">
+        <section id = "kontacts" class="contacts rL hid">
            <div id="map"></div>
             <div class="inner">
                 <div class="contacts__box"> 
@@ -652,17 +652,16 @@
                     <a href="#" class="logo"></a>
                     <nav> 
                         <ul>
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="#">Услуги</a></li>
-                            <li><a href="#">Заявка</a></li>
-                            <li><a href="#">Примеры авто</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#about">О нас</a></li>
+                            <li><a href="#uslugi">Услуги</a></li>
+                            <li><a href="#zayavka">Заявка</a></li>
+                            <li><a href="#primeri">Примеры авто</a></li>
+                            <li><a href="#kontacts">Контакты</a></li>
                         </ul>
                     </nav>
                     <div class="nav-panel__contacts clearfix">
                         <span class="phone db desktop nav-panel__contacts__item">
-                            <span class="icon phone-icon"></span>+7 (987) 123-45-67
+                            <span class="icon phone-icon"></span>+7 (4712) 745-111
                         </span>
                         <a href="tel:+74712745111" class="phone db mobil nav-panel__contacts__item">
                             <span class="icon phone-icon"></span>+7(4712)745-111
@@ -676,9 +675,8 @@
             </div>
     </footer>
 
-    <script src="js/html5.js"></script>
+
     <script src="js/jquery-3.5.1.js"></script> 
-    <script src="js/slick.js"></script> 
     <script src="js/script.js"></script>
     <script src="//api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU" type="text/javascript"></script>  
     <script>  
