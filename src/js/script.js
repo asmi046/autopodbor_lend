@@ -85,7 +85,7 @@ $(function () {
         
         jqXHR.done(function (responce) {
             console.log(responce);
-            alert("Ваше сообщение отправлено!");
+            document.location.href = "https://autopodbor46.ru/thencs.html";	
             jQuery('.request__form input[name=tel]').val("");	
             jQuery('.request__form input[name=name]').val("");
             jQuery('.request__form input[name=email]').val("");
