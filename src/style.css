@@ -5,7 +5,7 @@ h1 {
   font-size: 3.5em;
   line-height: 1.24;
   margin-bottom: 140px; }
-
+ 
 h2 {
   font-family: 'ProximaNova-ExtraBold', sans-serif;
   font-size: 2.875em;
@@ -356,6 +356,10 @@ header, nav, section, article, aside, footer, main {
   position: relative;
   z-index: 10; }
 
+.nav-panel .logo-footer {
+  background-image: url(img/logo.png) !important;
+}
+
 .cover {
   background-position: center center;
   background-repeat: no-repeat;
@@ -576,9 +580,9 @@ section h2 {
     display: block;
     width: 165px;
     height: 70px;
-    background-color: #3a745f;
+    /*background-color: #3a745f;*/
     border-bottom-right-radius: 21px;
-    background-image: url(img/logo.png);
+    background-image: url(img/logo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     margin-right: 2.7%; }
@@ -715,6 +719,7 @@ section.services {
   section.services .services-box {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 45px;
     justify-content: center; }
 
 .service {
@@ -757,6 +762,10 @@ section.services {
       line-height: 24px;
       display: inline-block;
       top: -6px; }
+
+  .uslugi__subtitle-bottom h3 {
+    text-align: center;
+  }
 
 section.check {
   background-image: url(img/check-bg.jpg);
@@ -979,7 +988,7 @@ section.car {
         top: -5px; }
 
 section.contacts {
-  height: 700px; }
+  height: 500px; }
   section.contacts #map {
     position: absolute;
     width: 100%;
