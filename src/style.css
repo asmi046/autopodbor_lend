@@ -1452,6 +1452,9 @@ section.contacts {
     font-size: 2em;
     line-height: 1.5; }
 
+ section.contacts {
+  height: 400px; } 
+
   #footer .nav-panel {
     display: block; }
     #footer .nav-panel .logo {
