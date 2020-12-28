@@ -18,7 +18,7 @@ document.createElement('section');
 document.createElement('article');
 document.createElement('aside');
 document.createElement('footer');
-document.createElement('main');
+document.createElement('main'); 
 
 $(function () {
 
@@ -27,6 +27,7 @@ $(function () {
     let $burgerBtn = $('.burger-btn');
     let $headerMenu = $('.main-menu');
     let closeMenuBtn = $('.close-main-menu');
+    let closeLink = $('.main-menu a');
 
     $burgerBtn.bind('click', function (e) {
         e.preventDefault();
@@ -36,6 +37,20 @@ $(function () {
         e.preventDefault();
         $headerMenu.removeClass('show-menu');
     });
+
+    closeLink.bind('click', function (e) {
+        e.preventDefault();
+        $headerMenu.removeClass('show-menu');
+    });
+
+// Плавная прокрутка меню
+    $(".main-menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 2500);
+    });
+
 
     $('.car__sl').slick({
         centerMode: false,
