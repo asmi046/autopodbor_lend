@@ -44,7 +44,7 @@ $(function () {
     });
 
 // Плавная прокрутка меню
-    $(".main-menu").on("click","a", function (event) {
+    $(".main-menu, .service, .nav-panel").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;

@@ -1509,7 +1509,7 @@ section.contacts {
   border-left: 2px solid #F6630A;
 }
 .line-gr__mob  li {
-  color: #838383;
+  /*color: #838383;*/
   color: #000;
   line-height: 16px;
   margin-bottom: 30px;
@@ -1525,7 +1525,8 @@ section.contacts {
   position: absolute;
   display: flex;
   align-items: center;
-  color: #838383;
+  /*color: #838383;*/
+  color: #3A745F;;
   line-height: 19.2px;
 }
 .line-gr li span, .line-gr__mob li span {
