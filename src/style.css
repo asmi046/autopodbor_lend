@@ -1352,7 +1352,7 @@ section.contacts {
 .dignity__text p {
   max-width: 263px;
   width: 100%;
-  line-height: 19.2px;
+  line-height: 19px;
   color: #838383;
 }
 .dignity__text p span {
@@ -1526,8 +1526,8 @@ section.contacts {
   display: flex;
   align-items: center;
   /*color: #838383;*/
-  color: #3A745F;;
-  line-height: 19.2px;
+  color: #3A745F;
+  line-height: 19px;
 }
 .line-gr li span, .line-gr__mob li span {
   display: flex;
@@ -1657,7 +1657,7 @@ section.services h2 {
   width: 100%;
 }
 .process__column p {
-  line-height: 19.2px;
+  line-height: 19px;
   color: #838383;
 }
 .process__body {
