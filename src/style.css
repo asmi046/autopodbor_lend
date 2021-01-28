@@ -357,7 +357,7 @@ header, nav, section, article, aside, footer, main {
   z-index: 10; }
 
 .nav-panel .logo-footer {
-  background-image: url(img/logo.png) !important;
+  background-image: url(img/logo-n.svg) !important;
 }
 
 .cover {
@@ -582,9 +582,10 @@ section h2 {
     height: 70px;
     background-color: #3a745f;
     border-bottom-right-radius: 21px;
-    background-image: url(img/logo.svg);
+    background-image: url(img/logo-n.svg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 2.7%; }
   .nav-panel a {
     transition: all 200ms ease; }
